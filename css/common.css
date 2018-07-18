@@ -1,0 +1,47 @@
+/************************************************************************************/
+/******css reset******/
+body,h1,h2,h3,h4,h5,p,dd,ul,ol,form,input,textarea,th,td,select,button { margin:0; padding:0; }
+ul,li { list-style:none; }
+a { color: inherit;text-decoration:none;display: inline-block; }
+img { border:none; vertical-align:middle; width: 100%;}
+table { border-collapse:collapse; }
+input,textarea { outline:none; }
+textarea { resize:none; overflow:auto; }
+body { font-size:14px; font-family: "微软雅黑";}
+html {font-size: 14px;}
+/******公共样式******/
+.f10{font-size: 10px;}/* 文字排版及颜色 */
+.f12{font-size: 12px;}
+.f14{font-size: 14px;}
+.f16{font-size: 16px;}
+.f18{font-size: 18px;}
+.f20{font-size: 20px;}
+.f45{font-size: 0.45rem;}
+.red{color: red;}
+.white{color: #fff;}
+.fb{font-weight: bold;}
+.bgc{background: #F56600;}/* 背景颜色自行修改 */
+.mc{color: #a50003;}/* 主体颜色 */
+
+.tl{text-align: left;}/* 定位 */
+.tc{text-align: center;}
+.tr{text-align: right;}
+.fl{float: left;}
+.fr{float: right}
+.clearfix{overflow: hidden;}
+.clearfix:after{display:block;content:'';overflow: hidden;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.vm{vertical-align: middle;}
+.center{text-align: center;}
+.r50{border-radius: 50%;}
+
+a:link, a:visited {text-decoration: none;color: #1F376D;}/* 链接 */
+a:hover, a:active {text-decoration: underline;color: #BD0A01;border: none;}
+
+.none{display: none;}/* 行内样式 */
+.inb{display: inline-block;}
+.block{display: block;}
+.flex{display: flex;}
+
+.ellipsis{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}/* 省略 */
